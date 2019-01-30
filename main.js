@@ -1,6 +1,6 @@
 function createGreeting(){
-    console.log('Hi, My name is Kyler');
+    return 'Hi, My name is Kyler!';
 }
 
-createGreeting();
-    
+const greeting = createGreeting();
+console.log(greeting);
